@@ -9,3 +9,20 @@ Your code should not repeat itself multiple times. When you have two pieces of c
 I you place your script tag in the head of your document, you could run into problems where your Javascript is rendered earlier than your HTML.
 
 ## Keep the Global Scope clean
+
+## Plan your code with Pseudo Code
+It can help to write out a plan to build your work. Pseudo coding your work can help with that. 
+* Decide what your goal will be
+* write out step by step what you will build
+* follow the plan
+`
+// goal: Render a random title
+
+// fetch data from an API
+
+// get render position in domain
+
+// create a random number
+
+// render a title from the API with the random number
+`
