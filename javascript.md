@@ -17,3 +17,7 @@ Bad:
 ```js
 document.querySelector('...').classList.toggle('...');
 ```
+
+## Keep functions simple
+
+Give a function one clear goal for better redability and reusability
