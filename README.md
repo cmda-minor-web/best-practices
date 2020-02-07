@@ -24,14 +24,14 @@ Code should be easily readable. Most of our best practices stem from this golden
     ```
     You don't know where `render` is called until you've explored the code. In more complex cases this becomes an even bigger mess. Instead it could be better to let functions return it's data and of course always keep clear function names.
     ```javascript
-      rendersStuff(processData())
+      rendersData(processData())
 
       // Other file/module
       function processData(){
         // Does stuff
         return data
       }
-      function render(data){
+      function renderData(data){
         // renders stuff
       }
     ```
