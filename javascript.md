@@ -39,4 +39,4 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.anywhere.com?key=42');
 
 ## Keep functions simple
 
-Give a function one clear goal for better redability and reusability
+Give functions one clear goal for better redability and reusability
