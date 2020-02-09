@@ -22,6 +22,8 @@ Code should be easily readable. Most of our best practices stem from this golden
 - Only abbreviate words when instantly understandable
   - `info` instead of `information` is fine but `locMark` instead of `locationMarker` takes more time to understand and should be avoided.
 
+[JavaScript naming conventions](https://www.robinwieruch.de/javascript-naming-conventions)
+
 ### Git
 Commit early and often
 
