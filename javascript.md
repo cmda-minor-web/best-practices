@@ -64,3 +64,16 @@ In most cases a forEach loop is a better choice for looping through an array(lik
 
 [forEach vs for Loops in JavaScript: What's the Difference?](https://alligator.io/js/foreach-vs-for-loops/)
 
+## Avoid inline CSS in JavaScript
+
+Good:
+```js
+const el = document.querySelector('...');
+el.classList.toggle('...');
+```
+
+Bad:
+```js
+const el = document.querySelector('...');
+el.style.display('none');
+```
