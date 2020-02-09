@@ -22,10 +22,12 @@ Code should be easily readable. Most of our best practices stem from this golden
 - Only abbreviate words when instantly understandable
   - `info` instead of `information` is fine but `locMark` instead of `locationMarker` takes more time to understand and should be avoided.
 
+### Git
+Commit early and often
 
-## Giving Feedback
+[Git best practices](https://sethrobertson.github.io/GitBestPractices/)
 
-## Asking Questions
 
-## Accessibility
+
+
 
