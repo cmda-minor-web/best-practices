@@ -40,7 +40,7 @@ Bad:
 fetch('https://cors-anywhere.herokuapp.com/https://api.anywhere.com?key=42');
 ```
 
-Or even better, take a look at the URL API
+Or even better, take a look at the URL API:  
 [MDN URL](https://developer.mozilla.org/en-US/docs/Web/API/URL)
 
 ## Keep functions simple
