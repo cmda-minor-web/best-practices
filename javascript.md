@@ -20,7 +20,7 @@ document.querySelector('...').classList.toggle('...');
 
 ## Split fetch url in separate chunks
 
-For readability and efficient code. Parts of the url can be reused for future fetches
+For readability and efficient code. With this aproach parts of the url can be reused for future fetches.
 
 Good:
 ```js
