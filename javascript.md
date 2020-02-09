@@ -4,6 +4,8 @@
 
 Global variables can cause conflicts and thus errors.. 
 
+[Global Variables Are Bad](http://wiki.c2.com/?GlobalVariablesAreBad)
+
 ## Cache elements in variables
 
 For readability and efficient code. Only one lookup is needed when the element is stored in a variable.
