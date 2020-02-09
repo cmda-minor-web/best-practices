@@ -5,6 +5,7 @@
 Global variables can cause conflicts and thus errors.. 
 
 ## Cache elements in variables
+
 For readability and efficient code. Only one lookup is needed when the element is stored in a variable.
 
 Good:
@@ -42,6 +43,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.anywhere.com?key=42');
 Give functions one clear goal for better redability and reusability
 
 ## DRY
+
 Don't repeat yourself!
 
 For efficient and readable code.
@@ -54,4 +56,9 @@ Know when to use which assignment identifier. Be consitent and try to make the m
 [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
 
 
+## for versus forEach
+
+In most cases a forEach loop is a better choice for looping through an array(like object). 
+
+[forEach vs for Loops in JavaScript: What's the Difference?](https://alligator.io/js/foreach-vs-for-loops/)
 
