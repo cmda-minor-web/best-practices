@@ -80,3 +80,12 @@ Bad:
 const el = document.querySelector('...');
 el.style.display('none');
 ```
+
+## Loading external script files
+
+Load external script files in the tail of the ```body``` element. Giving all DOM elements a chance to load before JavaScript kicks in.
+You can also use asyn/defer attributes if you're feeling dandy!
+
+[Asynchronous vs Deferred JavaScript](https://bitsofco.de/async-vs-defer/)
+
+
