@@ -47,3 +47,11 @@ Don't repeat yourself!
 For efficient and readable code.
 
 [DRY code vs. WET code](https://www.codementor.io/@joshuaaroke/dry-code-vs-wet-code-89xjwv11w)
+
+## var, let or const?
+Know when to use which assignment identifier. Be consitent and try to make the most logical choices for your code.
+
+[JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
+
+
+
