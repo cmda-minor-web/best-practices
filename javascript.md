@@ -40,3 +40,10 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.anywhere.com?key=42');
 ## Keep functions simple
 
 Give functions one clear goal for better redability and reusability
+
+## DRY
+Don't repeat yourself!
+
+For efficient and readable code.
+
+[DRY code vs. WET code](https://www.codementor.io/@joshuaaroke/dry-code-vs-wet-code-89xjwv11w)
