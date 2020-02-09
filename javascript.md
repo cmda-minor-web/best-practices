@@ -18,6 +18,24 @@ Bad:
 document.querySelector('...').classList.toggle('...');
 ```
 
+## Split fetch url in separate chunks
+
+For readability and efficient code. Parts of the url can be reused for future fetches
+
+Good:
+```js
+const cors = 'https://cors-anywhere.herokuapp.com/';
+const endpoint = 'https://api.anywhere.com';
+const key = '42';
+const url = `${cors}`${endpoint}/?key=${key};
+fetch (url) 
+```
+
+Bad:
+```js
+fetch('https://cors-anywhere.herokuapp.com/https://api.anywhere.com?key=42');
+```
+
 ## Keep functions simple
 
 Give a function one clear goal for better redability and reusability
