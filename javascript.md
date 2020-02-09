@@ -28,6 +28,7 @@ const cors = 'https://cors-anywhere.herokuapp.com/';
 const endpoint = 'https://api.anywhere.com';
 const key = '42';
 const url = `${cors}`${endpoint}/?key=${key};
+
 fetch (url) 
 ```
 
