@@ -80,6 +80,9 @@ Bad:
 const el = document.querySelector('...');
 el.style.display('none');
 ```
+For dynamic styling consider using custom properties, passing only data from JavaScript to CSS.
+[It's Time To Start Using CSS Custom Properties](https://www.smashingmagazine.com/2017/04/start-using-css-custom-properties/)
+
 
 ## Loading external script files
 
