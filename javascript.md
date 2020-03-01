@@ -63,6 +63,57 @@ Or even better, take a look at the URL API:
 
 Give functions one clear goal for better redability and reusability
 
+## Waterfall 🌊 vs. Returning Values 🎁
+
+There are multiple ways of writing code, however that doesn't make this readable for everyone. Check this waterfall instance.
+
+```js
+// Waterfall code (bad) ❌
+    // App.js
+    import {cleanData} from 'Clean.js'
+    function getData (){
+        fetch('url',{})
+            .then(res=>cleanData(res))
+    }
+    getData()
+    // Render.js
+    import {renderData} from 'Render.js'
+    function cleanData (uncleanData){
+        // clean data
+        renderData(cleanedData)
+    }
+    // The Waterfall
+    getData() -> cleanData() -> renderData()
+```
+
+This piece of code requires you to search through multiple files and you're actually rendering with the `getData` function. This makes bug fixing and maintaining this way harder than it needs to be since it's unclear what is happening and where.
+Instead it would be more efficient and readable if you let the functions return its values. You should always aim to make your code readable so that another developer can see what's happening in an instant.
+
+```js
+// Returning values (good) ⭕️
+    // App.js
+    import {getData} from 'Fetcher.js'
+    import {cleanData} from 'Clean.js'
+    import {renderData} from 'Render.js'
+
+    function init async(){
+        const data = cleanData(await getData())
+        renderData(data)
+    }
+    init()
+
+    // fetcher.js (example)
+    function getData (){
+        // clean data
+        return new Promise((resolve,reject)=>{
+            fetch('url',{})
+                .then(res=>resolve(res))
+        })
+    }
+```
+
+Make your code read like a book instead of the worst Ikea manual.
+
 ## DRY
 
 Don't repeat yourself!
