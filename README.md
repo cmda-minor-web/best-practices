@@ -29,7 +29,13 @@ Commit early and often
 
 [Git best practices](https://sethrobertson.github.io/GitBestPractices/)
 
+#### More readings about committing
+Chris Beams heeft een hele mooie standaard geschreven omtrent committen zeker de moeite waard: [Link hier](https://chris.beams.io/posts/git-commit/)
 
+#### Gitmoji
+Leuke meer visuele stijl om context te geven aan commits
+In een oogopslag duidelijk waar de commit over gaat op een speelse visuele manier.
+Ook als [NPM pakketje](https://www.npmjs.com/package/gitmoji-cli) (handig).
 
 
 
