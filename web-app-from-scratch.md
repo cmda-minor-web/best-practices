@@ -26,3 +26,9 @@ It can help to write out a plan to build your work. Pseudo coding your work can 
 
 // render a title from the API with the random number
 `
+
+## Element.setAttribute() vs Element.classList.add()
+You should use the classList.add() & classList.remove() methods over .setAttribute() for working with HTML Element classes in Javascript. This has performance benefits as seen in the benchmark and allows for adding and removing multiple classes in one call.    
+[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)    
+[Benchmark](https://measurethat.net/Benchmarks/ShowResult/93474)    
+
