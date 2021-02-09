@@ -68,7 +68,7 @@ Give functions one clear goal for better redability and reusability
 There are multiple ways of writing code, however that doesn't make this readable for everyone. Check this waterfall instance.
 
 ```js
-// Waterfall code (bad) ❌
+// Waterfall code (ok) ❌
     // App.js
     import {cleanData} from 'Clean.js'
     function getData (){
