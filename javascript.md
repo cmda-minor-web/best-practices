@@ -103,7 +103,7 @@ Instead it would be more efficient and readable if you let the functions return 
     init()
 ```
 fetcher.js module
-```
+```js
     // 
     function getData (){
         // clean data
