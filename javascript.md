@@ -83,7 +83,7 @@ There are multiple ways of writing code, however that doesn't make this readable
         renderData(cleanedData)
     }
     // The Waterfall
-    getData() -> cleanData() -> renderData()
+    // getData() -> cleanData() -> renderData()
 ```
 
 This piece of code requires you to search through multiple files and you're actually rendering with the `getData` function. This makes bug fixing and maintaining this way harder than it needs to be since it's unclear what is happening and where.
