@@ -101,8 +101,10 @@ Instead it would be more efficient and readable if you let the functions return 
         renderData(data)
     }
     init()
-
-    // fetcher.js (example)
+```
+fetcher.js module
+```
+    // 
     function getData (){
         // clean data
         return new Promise((resolve,reject)=>{
