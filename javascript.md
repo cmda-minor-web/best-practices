@@ -177,3 +177,4 @@ state('loading')
     })
 ```
 
+[Promis finally method MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally)
