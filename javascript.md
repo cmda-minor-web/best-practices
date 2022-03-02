@@ -63,6 +63,8 @@ Or even better, take a look at the URL API:
 
 Give functions one clear goal for better redability and reusability
 
+[Functions and the Single Responsibility Principle](https://dev.to/eidorianavi/functions-and-the-single-responsibility-principle-48ae)
+
 ## Waterfall 🌊 vs. Returning Values 🎁
 
 There are multiple ways of writing code, however that doesn't make this readable for everyone. Check this waterfall instance.
