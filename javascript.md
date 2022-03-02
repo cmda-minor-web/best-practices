@@ -1,4 +1,4 @@
-# Javascript Best Practices
+# JavaScript Best Practices
 
 ## Avoid global variables as much as possible
 
