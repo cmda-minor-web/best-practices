@@ -160,4 +160,20 @@ You can also use asyn/defer attributes if you're feeling dandy!
 
 [Asynchronous vs Deferred JavaScript](https://bitsofco.de/async-vs-defer/)
 
+## Handle loaded state in .finally()
+
+```js
+state('loading')
+
+  return fetch(url)
+    .then(response => response.json())
+    .then(data => clean(data.data))
+    .then(data => store(data))
+    .catch(err => {
+      state(err)
+    })
+    .finally(()=> {
+      state('loaded')
+    })
+```
 
