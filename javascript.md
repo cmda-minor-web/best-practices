@@ -69,17 +69,21 @@ Give functions one clear goal for better redability and reusability
 
 There are multiple ways of writing code, however that doesn't make this readable for everyone. Check this waterfall instance.
 
+### Waterfall code (ok) ❌
+
+app.js module (main module)
 ```js
-// Waterfall code (ok) ❌
-    // App.js
-    import {cleanData} from 'Clean.js'
+
+    import {cleanData} from 'clean.js'
     function getData (){
         fetch('url',{})
             .then(res=>cleanData(res))
     }
     getData()
-    // Render.js
-    import {renderData} from 'Render.js'
+```
+clean.js module
+```js
+    import {renderData} from 'render.js'
     function cleanData (uncleanData){
         // clean data
         renderData(cleanedData)
@@ -91,12 +95,14 @@ There are multiple ways of writing code, however that doesn't make this readable
 This piece of code requires you to search through multiple files and you're actually rendering with the `getData` function. This makes bug fixing and maintaining this way harder than it needs to be since it's unclear what is happening and where.
 Instead it would be more efficient and readable if you let the functions return its values. You should always aim to make your code readable so that another developer can see what's happening in an instant.
 
+### Returning values (good) ⭕️
+
+app.js module (main module)
 ```js
-// Returning values (good) ⭕️
-    // App.js
-    import {getData} from 'Fetcher.js'
-    import {cleanData} from 'Clean.js'
-    import {renderData} from 'Render.js'
+
+    import {getData} from 'fetcher.js'
+    import {cleanData} from 'clean.js'
+    import {renderData} from 'render.js'
 
     function init async(){
         const data = cleanData(await getData())
