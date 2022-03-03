@@ -1,6 +1,6 @@
 # JavaScript Best Practices
 
-## Table of content
+**Table of content**
   * [Avoid global variables as much as possible](#avoid-global-variables-as-much-as-possible)
   * [Code attribution/ plagiarism](#code-attribution--plagiarism)
   * [OOP versus functional approach](#oop-versus-functional-approach)
