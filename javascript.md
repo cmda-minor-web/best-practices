@@ -8,7 +8,7 @@
   * [Cache elements in variables](#cache-elements-in-variables)
   * [Split fetch url in separate chunks](#split-fetch-url-in-separate-chunks)
   * [Keep functions simple and focused](#keep-functions-simple-and-focused)
-  * [Waterfall 🌊 vs. Returning Values 🎁](#waterfall----vs-returning-values---)
+  * [Waterfall 🌊 vs. Returning Values 🎁](#waterfall--vs-returning-values-)
   * [DRY](#dry)
   * [var, let or const?](#var--let-or-const-)
   * [for versus forEach](#for-versus-foreach)
