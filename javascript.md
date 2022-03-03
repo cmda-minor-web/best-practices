@@ -15,8 +15,7 @@
   * [Avoid inline CSS in JavaScript](#avoid-inline-css-in-javascript)
   * [Loading external script files](#loading-external-script-files)
   * [Handle loaded state in .finally()](#handle-loaded-state-in-finally--)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+  * [Acknowledements](#acknowledements)
 
 ## Avoid global variables as much as possible
 
@@ -204,3 +203,7 @@ state('loading')
 ```
 
 [Promis finally method MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally)
+
+## Acknowlegdements
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
