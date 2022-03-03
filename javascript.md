@@ -2,7 +2,7 @@
 
 **Table of content**
   * [Avoid global variables as much as possible](#avoid-global-variables-as-much-as-possible)
-  * [Code attribution/ plagiarism](#code-attribution--plagiarism)
+  * [Code attribution/ plagiarism](#code-attribution-plagiarism)
   * [OOP versus functional approach](#oop-versus-functional-approach)
   * [Using InnerHTML](#using-innerhtml)
   * [Cache elements in variables](#cache-elements-in-variables)
@@ -10,12 +10,11 @@
   * [Keep functions simple and focused](#keep-functions-simple-and-focused)
   * [Waterfall 🌊 vs. Returning Values 🎁](#waterfall--vs-returning-values-)
   * [DRY](#dry)
-  * [var, let or const?](#var--let-or-const-)
+  * [var, let or const?](#var-let-or-const-)
   * [for versus forEach](#for-versus-foreach)
   * [Avoid inline CSS in JavaScript](#avoid-inline-css-in-javascript)
   * [Loading external script files](#loading-external-script-files)
   * [Handle loaded state in .finally()](#handle-loaded-state-in-finally--)
-  * [Acknowledements](#acknowledements)
 
 ## Avoid global variables as much as possible
 
@@ -203,7 +202,3 @@ state('loading')
 ```
 
 [Promis finally method MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally)
-
-## Acknowlegdements
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
