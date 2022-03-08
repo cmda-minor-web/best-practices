@@ -36,6 +36,7 @@ Global variables can cause conflicts and thus errors..
 
 ## Using InnerHTML
 - InnerHTML is not safe when you're overwriting the entire html content of a node [citation needed]
+- Use `Element.insertAdjacentHTML()` if you need to insert the resulting nodes into the DOM tree at a specified position
 - Don't pick an alternative because you saw it being used somewhere, read up on the differences and make an [informed decision](https://stackoverflow.com/a/7476723/5440366).
 
 ## Cache elements in variables
