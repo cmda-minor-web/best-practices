@@ -10,7 +10,7 @@
   * [Keep functions simple and focused](#keep-functions-simple-and-focused)
   * [Waterfall 🌊 vs. Returning Values 🎁](#waterfall--vs-returning-values-)
   * [DRY](#dry)
-  * [var, let or const?](#var-let-or-const-)
+  * [var, let or const?](#var-let-or-const)
   * [for versus forEach](#for-versus-foreach)
   * [Avoid inline CSS in JavaScript](#avoid-inline-css-in-javascript)
   * [Loading external script files](#loading-external-script-files)
