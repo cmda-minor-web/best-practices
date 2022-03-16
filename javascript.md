@@ -14,7 +14,8 @@
   * [for versus forEach](#for-versus-foreach)
   * [Avoid inline CSS in JavaScript](#avoid-inline-css-in-javascript)
   * [Loading external script files](#loading-external-script-files)
-  * [Handle loaded state in .finally()](#handle-loaded-state-in-finally--)
+  * [Handle loaded state in .finally()](#handle-loaded-state-in-finally)
+  * [Object destructuring](#object-destructuring)
 
 ## Avoid global variables as much as possible
 
@@ -203,3 +204,71 @@ state('loading')
 ```
 
 [Promis finally method MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally)
+
+## Object destructuring
+Use object destructuring for better readability
+
+
+Ok:
+```js
+function render(data) {
+  const section = $("section")
+  
+  data.forEach((item) => {
+    const html = `
+      <article>
+        <a href="#gifs/${item.id}">
+          <h3>${item.title}</h3>
+          <img src="https://media.giphy.com/media/${item.id}/giphy.gif">
+          <p>${item.description}</p>
+        </a>
+      </article>
+    `;
+
+    section.insertAdjacentHTML('beforeend', html)
+  })
+}
+```
+
+Good:
+```js
+function render(data) {
+  const section = $("section")
+  
+  data.forEach((item) => {
+    const { id, title, description } = item
+    const html = `
+      <article>
+        <a href="#gifs/${id}">
+          <h3>${title}</h3>
+          <img src="https://media.giphy.com/media/${id}/giphy.gif">
+          <p>${description}</p>
+        </a>
+      </article>
+    `;
+
+    section.insertAdjacentHTML('beforeend', html)
+  })
+}
+```
+
+Or:
+```js
+function render(data) {
+  const section = $("section")
+  
+  data.forEach(({ id, title, description }) => {
+    const html = `
+      <article>
+        <a href="#gifs/${id}">
+          <h3>${title}</h3>
+          <img src="https://media.giphy.com/media/${id}/giphy.gif">
+          <p>${description}</p>
+        </a>
+      </article>
+    `;
+
+    section.insertAdjacentHTML('beforeend', html)
+  })
+}
+```
